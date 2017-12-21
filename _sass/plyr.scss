@@ -419,6 +419,7 @@
 }
 .plyr .plyr__play-large {
     display: inline-block;
+    visibility: hidden;
 }
 .plyr--audio .plyr__play-large {
     display: none;
