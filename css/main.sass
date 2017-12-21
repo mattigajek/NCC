@@ -17,22 +17,34 @@ body
     height: 1em
     padding: 2px
 
-.controls
-    background-color: white
-    border-top: 9px solid $ncc-blue
-    bottom: 0
-    height: 4em
-    left: 0
-    padding: 15px 10px 19px 15px
-    position: fixed
-    right: 0
+.about
+  background-color: white
+  border-top: 1px solid $ncc-blue
+  padding: 15px 10px 19px 15px
+  position: absolute
+  left: 0
+  right: 0
+  bottom: 0
+  top: 1em
 
-    & p
-      padding: 4px
-      min-width: 250px
-      white-space: nowrap
-      overflow: hidden
-      text-overflow: ellipsis
+  & p
+    padding: 4px
+
+.controls
+  background-color: white
+  border-top: 9px solid $ncc-blue
+  bottom: 0
+  left: 0
+  padding: 15px 10px 19px 15px
+  position: fixed
+  right: 0
+
+  & p
+    min-width: 250px
+    overflow: hidden
+    padding: 4px
+    text-overflow: ellipsis
+    white-space: nowrap
 
 .container
   position: fixed
