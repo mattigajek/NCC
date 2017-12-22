@@ -12,32 +12,29 @@ body
   font-family: 'Roboto', sans-serif
   font-size: 1.3em
 
-body, main, .wrapper, .about
-  overflow: hidden
-
 .header
     background-color: $ncc-yellow
     height: 1em
     padding: 2px
 
 .about
-  background-color: white
   border-top: 2px solid $ncc-blue
   padding: 15px 10px 19px 15px
   position: absolute
   left: 0
   right: 0
   bottom: 0
-  top: 1000px
   background-color: rgba(255, 255, 255, 0.98)
+  opacity: 0
+  top: 20em
 
   & p
     padding: 4px
 
   &.active
     top: 1.2em
-    transition-property: all
-    transition-duration: .2s
+    opacity: 1
+    transition: top 0.12s, opacity 0.15s
 
 .controls
   background-color: white
@@ -91,7 +88,6 @@ body, main, .wrapper, .about
 
   .about
     font-size: 0.7em
-    top: 10000px
 
     &.active
       top: 1.7em
